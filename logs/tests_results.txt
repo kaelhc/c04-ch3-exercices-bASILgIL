@@ -27,13 +27,13 @@ FAIL: test_square (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 34, in test_square
     'Mauvais calcul du carré'
-AssertionError: Lists differ: [0.0, 0.0, 0.0] != [144, 40000, 400]
+AssertionError: Lists differ: [12, 200, 20] != [144, 40000, 400]
 
 First differing element 0:
-0.0
+12
 144
 
-- [0.0, 0.0, 0.0]
+- [12, 200, 20]
 + [144, 40000, 400] : Mauvais calcul du carré
 
 ======================================================================
