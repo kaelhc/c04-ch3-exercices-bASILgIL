@@ -15,7 +15,7 @@ Traceback (most recent call last):
   File "test_exercice.py", line 80, in <listcomp>
     output = [exercice.to_degrees(v) for v in values]
   File "/home/runner/work/c04-ch3-exercices-bASILgIL/c04-ch3-exercices-bASILgIL/exercice.py", line 26, in to_degrees
-    return degrees - minutes, minute - secondees, 0.0
+    return degrees - minutes, minute - secondes, secondes
 NameError: name 'minute' is not defined
 
 ======================================================================
